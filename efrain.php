@@ -6,4 +6,9 @@
  * and open the template in the editor.
  */
 
-echo 'soy efra';
+$num = $_GET["fact"];
+$fac= 1;
+for ($con = 1; $con <= $num; $con++) {
+    $fac *= $con;
+}
+echo $fac;
